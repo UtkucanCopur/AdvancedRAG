@@ -1,6 +1,6 @@
 from typing import Dict,Any
 from ingestion import retriever
-from graphs.state import GraphState
+from graph.state import GraphState
 
 def retrieve(state: GraphState) -> Dict[str, Any]:
     print("----RETRIEVE----")

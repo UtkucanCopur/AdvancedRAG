@@ -1,5 +1,5 @@
 from typing import Any,Dict
-from graphs.state import GraphState
+from graph.state import GraphState
 from langchain_community.tools.tavily_search import TavilySearchResults
 from langchain.schema import Document
 

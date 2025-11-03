@@ -1,5 +1,5 @@
-from graphs.chains.generation import generation_chain
-from graphs.state import GraphState
+from graph.chains.generation import generation_chain
+from graph.state import GraphState
 from typing import Any,Dict
 
 def generate(state: GraphState) -> Dict[str, Any]:
