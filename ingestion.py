@@ -4,6 +4,11 @@ from langchain_community.document_loaders import WebBaseLoader
 from langchain_community.vectorstores import Chroma
 from langchain_openai import OpenAIEmbeddings
 
+
+"""---REQUIRE URLS AND CREATING CHROMA DB"""
+
+
+
 load_dotenv()
 
 urls = [

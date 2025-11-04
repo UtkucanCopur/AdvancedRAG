@@ -4,6 +4,8 @@ from graph.chains.generation import generation_chain
 from graph.state import GraphState
 
 
+"""---GENERATING FINAL RESPONSE BY USING RETRIEVED DOCUMENTS AND USER QUESTION THROUGH GENERATION CHAIN---"""
+
 def generate(state: GraphState) -> Dict[str, Any]:
     print("---GENERATE---")
     question = state["question"]

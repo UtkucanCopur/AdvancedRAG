@@ -3,6 +3,9 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.pydantic_v1 import BaseModel, Field
 
 
+"""---COMPARISON BETWEEN DOCUMENTS AND LLM GENERATION TO CONTROL HALLUCINATION---"""
+
+
 llm = ChatOpenAI(temperature=0)
 
 class GradeHallucination(BaseModel):

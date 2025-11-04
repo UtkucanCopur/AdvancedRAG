@@ -1,3 +1,5 @@
+langserve
+fastapi
 beautifulsoup4==4.12.3
 langchain==0.2.7
 langgraph==0.1.8

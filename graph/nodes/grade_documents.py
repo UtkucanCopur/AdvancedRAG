@@ -3,6 +3,7 @@ from typing import Any, Dict
 from graph.chains.retrieval_grader import retrieval_grader
 from graph.state import GraphState
 
+"""---CHECKING RELEVANCE OF RETRIEVED DOCUMENTS TO USER QUESTION AND FLAGGING WEB SEARCH IF NOT RELATED---"""
 
 def grade_documents(state: GraphState) -> Dict[str, Any]:
     """

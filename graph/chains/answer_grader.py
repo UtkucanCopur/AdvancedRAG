@@ -3,12 +3,15 @@ from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.pydantic_v1 import BaseModel, Field
 
 
+"""---COMPARISON BETWEEN QUESTION AND LLM GENERATION---"""
+
 
 class GradeAnswer(BaseModel):
 
     binary_score: bool = Field(
         description="Answer addresses the question, 'yes' or 'no'"
     )
+
 
 llm = ChatOpenAI(temperature=0)
 structured_llm_grader = llm.with_structured_output(GradeAnswer)

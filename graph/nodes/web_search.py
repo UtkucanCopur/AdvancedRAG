@@ -5,6 +5,10 @@ from langchain_community.tools.tavily_search import TavilySearchResults
 
 from graph.state import GraphState
 
+
+"""---PERFORMING WEB SEARCH USING TAVILY---"""
+
+
 web_search_tool = TavilySearchResults(k=3)
 
 

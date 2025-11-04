@@ -2,6 +2,9 @@ from langchain_openai import ChatOpenAI
 from langchain_core.prompts import ChatPromptTemplate
 from langchain_core.pydantic_v1 import BaseModel, Field
 
+"""---COMPARISON BETWEEN DOCUMENTS AND QUESTION TO CONTROL IS IT RELATED WITH DOCUMENTS"""
+
+
 
 llm = ChatOpenAI(temperature=0)
 
